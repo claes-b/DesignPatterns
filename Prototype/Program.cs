@@ -24,5 +24,7 @@ foreach (var parent in parents)
     Console.WriteLine(parent.ToString());
 }
 
+// Note: C# Has a cheat method to shallow clone objects, check it out below:
+Console.WriteLine(childOne.ShallowClone().ToString());
 
 

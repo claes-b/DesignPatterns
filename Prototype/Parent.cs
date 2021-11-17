@@ -18,5 +18,5 @@ public abstract class Parent : IClone<Parent>
 
     public abstract Parent Clone();
 
-    public abstract string ToString();
+    public abstract override string ToString();
 }

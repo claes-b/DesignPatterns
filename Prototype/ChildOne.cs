@@ -23,4 +23,9 @@ public class ChildOne : Parent
     {
         return $"{Width}, {Height}, {Depth}";
     }
+
+    public Parent ShallowClone()
+    {
+        return (Parent)this.MemberwiseClone();
+    }
 }
